@@ -1,18 +1,18 @@
-GRPC on Java:
+# GRPC on Java:
 
-Build Server:
-$ ./gradlew installDist
+1. Build Server:
+  - $ ./gradlew installDist
 
-Run Server:
-$ ./build/install/examples/bin/hello-world-server
+2. Run Server:
+  - $ ./build/install/examples/bin/hello-world-server
 
-Run Client:
-$ ./build/install/examples/bin/hello-world-client
+3. Run Client:
+  - $ ./build/install/examples/bin/hello-world-client
 
-Server and Client Java files are here:
-\src\main\java\io\grpc\examples\helloworld
+- Server and Client Java files are here:
+  \src\main\java\io\grpc\examples\helloworld
 
-Proto File is here:
-\src\main\proto
+- Proto File is here:
+  \src\main\proto
 
-Note: These both should be running on different windows of the CLI
+# Note: These both should be running on different windows of the CLI
